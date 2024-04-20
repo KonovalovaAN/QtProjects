@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Пасхалочка</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>C:/Users/PC/Desktop/размысл.jpg</normaloff>C:/Users/PC/Desktop/размысл.jpg</iconset>
+  </property>
+  <widget class="QScrollArea" name="scrollArea">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>778</width>
+     <height>578</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>778</width>
+     <height>578</height>
+    </size>
+   </property>
+   <property name="widgetResizable">
+    <bool>true</bool>
+   </property>
+   <widget class="QWidget" name="scrollAreaWidgetContents">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>762</width>
+      <height>1790</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QLabel" name="label_5">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>73</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>20</pointsize>
+         <italic>true</italic>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Анкета</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_9">
+       <property name="font">
+        <font>
+         <pointsize>11</pointsize>
+         <bold>true</bold>
+         <underline>true</underline>
+         <strikeout>false</strikeout>
+        </font>
+       </property>
+       <property name="text">
+        <string>фЭпЭМЫ</string>
+       </property>
+       <property name="scaledContents">
+        <bool>false</bool>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_8">
+       <property name="text">
+        <string>1. Кем вы хотели стать в детстве?</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_3">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>25</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>2. Укажите день, когда вы нашни смысл жизни</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QDateEdit" name="dateEdit"/>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_6">
+       <property name="text">
+        <string>3. Почему нет корма для кошек со вкусом мыши?</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>25</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_7">
+       <property name="text">
+        <string>4. Как вы называете предмет, чтобы стирать карандаш? </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radioButton_2">
+       <property name="text">
+        <string>стЁрка</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">buttonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radioButton_4">
+       <property name="text">
+        <string>стИрка</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">buttonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radioButton_3">
+       <property name="text">
+        <string>ластик</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">buttonGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_10">
+       <property name="text">
+        <string>5. Твоё любимое время года</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="checkBox_5">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="text">
+        <string>Летняя Сессия</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="checkBox_2">
+       <property name="text">
+        <string>Летняя практика</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="checkBox_3">
+       <property name="text">
+        <string>Строй отряд</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="checkBox_4">
+       <property name="text">
+        <string>Зимняя сессия</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_11">
+       <property name="text">
+        <string>6. По какому предмету вы хотите пересдачу больше всего?</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_2">
+       <item>
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>бел яз</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Прога</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Матан</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>физра</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_12">
+       <property name="text">
+        <string>7. Выберите любимую цитату преподавателя</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox">
+       <item>
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Ребята-демократы</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Поезд уходит</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Вернёмся к нашим баранам</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ПанЕслась бабка в партизаны</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Шевелим червеллами</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Вы даже этого не знаете</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Ваш уровень знаний стремится к нулю, а нет, к минус бесконечности</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Перегрузила машину</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Что не рекомендованно, то есть unrecommended</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Синтаксическая ошибка, то есть ошибка в синтаксисе</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Боюсь открывать вижлу</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_13">
+       <property name="text">
+        <string>8. Ваш любимый цвет галстука Георгия Прокофьевича</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="checkBox">
+       <property name="text">
+        <string>Тёмно-синий в светлую полоску</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="checkBox_6">
+       <property name="text">
+        <string>Светло-синий в тёмную полоску</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="checkBox_7">
+       <property name="text">
+        <string>Красный</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="checkBox_8">
+       <property name="text">
+        <string>Чёрный</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_14">
+       <property name="text">
+        <string>9. Ваша любимая чиабатта?</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radioButton_6">
+       <property name="text">
+        <string>С курицей</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">buttonGroup_2</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radioButton_7">
+       <property name="text">
+        <string>С ветчиной</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">buttonGroup_2</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_15">
+       <property name="text">
+        <string>10. Ваш любимый рисунок на парте в 605</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_2">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>25</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_16">
+       <property name="text">
+        <string>11. Ваша любимая сказка Радыно?</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_4">
+       <item>
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>О пирамидах и русских</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>О великанах</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>О диффурах</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>О плоской земле</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>О больших дверях в храмах</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Про право и лево</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Про вампиров</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Про английский язык</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Про косу</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_4">
+       <property name="text">
+        <string>12. Если Земля плоская, то нужны ли диффуры?</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radioButton_9">
+       <property name="text">
+        <string>да</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">buttonGroup_3</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radioButton_8">
+       <property name="text">
+        <string>нет</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">buttonGroup_3</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_17">
+       <property name="text">
+        <string>13. Что вы делаете на лекциях?</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_5">
+       <item>
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Сплю</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Пишу конспект</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Ем</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Сижу в столовой</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Играю в телефон</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Рассматриваю трещины</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Рассматриваю рисунки</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Рисую рисунки</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Всё вместе</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Не хожу</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_18">
+       <property name="text">
+        <string>14. Почему нет корма для мышей со вкусом кошки?</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_4">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>25</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_19">
+       <property name="text">
+        <string>15. Выбери любимую игру в общаге</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="checkBox_9">
+       <property name="text">
+        <string>Покрывало</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="checkBox_11">
+       <property name="text">
+        <string>Психолог</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="checkBox_13">
+       <property name="text">
+        <string>Да-Нет-ка</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="checkBox_12">
+       <property name="text">
+        <string>Детектив</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_22">
+       <property name="text">
+        <string>16. Лучшее направление студсоюза?</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_6">
+       <item>
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ТикТак</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ТикТок</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ТокТик</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_20">
+       <property name="text">
+        <string>17. Планируете ли Вы жить в общаге в следующем году?</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="checkBox_10">
+       <property name="text">
+        <string>Да, я блатной</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="checkBox_14">
+       <property name="text">
+        <string>Как повезёт</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="checkBox_15">
+       <property name="text">
+        <string>Скорее на вокзале</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="checkBox_16">
+       <property name="text">
+        <string>Нет</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_21">
+       <property name="text">
+        <string>18. Какой вопрос вам нравится больше всего?</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="checkBox_17">
+       <property name="text">
+        <string>Почему коровы стали военными? Чтобы защищать свои муууууууууууууууууууууууу.</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="checkBox_19">
+       <property name="text">
+        <string>Почему собаки так любят погрызть косточку? Потому что они не могут укусить майонез.</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="checkBox_18">
+       <property name="text">
+        <string>Как называется корова, которая любит петь в опере? Пастушка-дива.</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="checkBox_20">
+       <property name="text">
+        <string>Почему рыбы не любят плавать на глубине? Потому что им страшно заглотнуть воду.</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="checkBox_21">
+       <property name="text">
+        <string>Если бы вы могли быть любым зверем, кем бы вы были? Я был бы зебра, потому что она такая стильная!</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_23">
+       <property name="text">
+        <string>19. Какой ты тип грязи в общаге?</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_7">
+       <item>
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Пыль на холодильнике</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Пыль на полке</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Грязный пол</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_25">
+       <property name="text">
+        <string>20. Потраченного времени жаль?</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radioButton_10">
+       <property name="text">
+        <string>Да</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">buttonGroup_4</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radioButton_5">
+       <property name="text">
+        <string>Ответ 1</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">buttonGroup_4</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radioButton">
+       <property name="text">
+        <string>Ответ 2</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">buttonGroup_4</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton">
+       <property name="text">
+        <string>Завершить</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+ <buttongroups>
+  <buttongroup name="buttonGroup_2"/>
+  <buttongroup name="buttonGroup_4"/>
+  <buttongroup name="buttonGroup"/>
+  <buttongroup name="buttonGroup_3"/>
+ </buttongroups>
+</ui>
